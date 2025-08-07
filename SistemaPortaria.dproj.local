@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/08/06 13:49:32.909.pas,C:\Users\supor\OneDrive\Documentos\RAD Studio\Projects\Unit2.pas=C:\Users\supor\Desktop\Leandro\UnitLogin.pas</Transaction>
+    <Transaction>2025/08/06 13:49:32.909.dfm,C:\Users\supor\OneDrive\Documentos\RAD Studio\Projects\Unit2.dfm=C:\Users\supor\Desktop\Leandro\UnitLogin.dfm</Transaction>
+    <Transaction>2025/08/06 14:27:44.042.pas,C:\Users\supor\OneDrive\Documentos\RAD Studio\Projects\Unit2.pas=C:\Users\supor\Desktop\Leandro\UnitPrincipal.pas</Transaction>
+    <Transaction>2025/08/06 14:27:44.042.dfm,C:\Users\supor\OneDrive\Documentos\RAD Studio\Projects\Unit2.dfm=C:\Users\supor\Desktop\Leandro\UnitPrincipal.dfm</Transaction>
+    <Transaction>2025/08/06 15:05:15.409.dproj,C:\Users\supor\OneDrive\Documentos\RAD Studio\Projects\Project2.dproj=C:\Users\supor\Desktop\Leandro\SistemaPortaria.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
