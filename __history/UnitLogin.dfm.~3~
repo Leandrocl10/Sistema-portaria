@@ -88,8 +88,9 @@ object FormLogin: TFormLogin
   end
   object conexao: TADOConnection
     ConnectionString = 
-      'Provider=SQLOLEDB.1;Password=root;Persist Security Info=True;Use' +
-      'r ID=sa;Initial Catalog=PortariaDB;Data Source=Leandro\teste'
+      'Provider=SQLOLEDB.1;Password=Ff6791485;Persist Security Info=Tru' +
+      'e;User ID=sa;Initial Catalog=PortariaDb;Data Source=localhost,14' +
+      '33'
     LoginPrompt = False
     Provider = 'SQLOLEDB.1'
     Left = 24

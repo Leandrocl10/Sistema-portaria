@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, jpeg, ExtCtrls;
+  Dialogs, Menus, Vcl.ExtCtrls, Vcl.Imaging.jpeg;
 
 type
   TFormPrincipal = class(TForm)
@@ -16,6 +16,7 @@ type
     EntradaSada1: TMenuItem;
     Consulta1: TMenuItem;
     Sair1: TMenuItem;
+    img1: TImage;
     procedure Sair1Click(Sender: TObject);
   private
     { Private declarations }
