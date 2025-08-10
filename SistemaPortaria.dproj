@@ -32,6 +32,9 @@
     <DCCReference Include="UnitLogin.pas">
       <Form>FormLogin</Form>
     </DCCReference>
+    <DCCReference Include="UnitMoradores.pas">
+      <Form>FormMoradores</Form>
+    </DCCReference>
     <DCCReference Include="UnitPrincipal.pas">
       <Form>FormPrincipal</Form>
     </DCCReference>

@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, jpeg, ExtCtrls, UnitMoradores;
+  Dialogs, Menus, jpeg, ExtCtrls;
 
 type
   TFormPrincipal = class(TForm)
@@ -17,7 +17,6 @@ type
     Consulta1: TMenuItem;
     Sair1: TMenuItem;
     procedure Sair1Click(Sender: TObject);
-    procedure Moradors1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,16 +29,6 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TFormPrincipal.Moradors1Click(Sender: TObject);
-begin
- FormMoradores := TformMoradores.Create(Self);
- try
-   FormMoradores.ShowModal;
- finally
-   FormMoradores.Free;
- end;
-end;
 
 procedure TFormPrincipal.Sair1Click(Sender: TObject);
 begin

@@ -21,7 +21,6 @@ object FormPrincipal: TFormPrincipal
       Caption = 'Cadastro'
       object Moradors1: TMenuItem
         Caption = 'Moradores'
-        OnClick = Moradors1Click
       end
       object Visitantes1: TMenuItem
         Caption = 'Visitantes'
